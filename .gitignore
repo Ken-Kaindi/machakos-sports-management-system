@@ -1,0 +1,49 @@
+# ============================================
+# Machakos University Sports Management System
+# ============================================
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+includes/config.php
+config.local.php
+config.production.php
+
+# Development-only utilities
+reset_admin.php
+reset.lock
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*~
+
+# Dependencies
+node_modules/
+vendor/
+
+# Local database dumps
+*.dump
