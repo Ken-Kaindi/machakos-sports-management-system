@@ -47,3 +47,6 @@ vendor/
 
 # Local database dumps
 *.dump
+# Database config - extra path
+config/db.php
+uploads/
